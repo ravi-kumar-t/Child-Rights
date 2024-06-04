@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Us</title>
+    <link rel="stylesheet" type="text/css" href="contactus.css">
+</head>
+<body>
+
+    <section>
+        
+        <header class="header-container">
+            <div class="page-header">
+                <div class="logo">
+                    <a href="#"><img src="/logo 22.png" alt=""></a>
+                    
+                </div> 
+                <img class="sparks" src="https://media.tenor.com/Cri9ly9IFjMAAAAi/fireworks-color.gif" alt="">
+                <!-- <img class="sparks" src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExeXFpYXZqaWRvaWg4eTlxdXE2b2l5a3NhdjM2MWR0NXd0ODZ6ZXI3YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/o3c2G3291jgS38XKYK/giphy.gif" alt=""> -->
+                <div></div>               
+                <input type="checkbox" id="click">   
+                
+                <ul>
+                    <li><a href="index.html" style="--navAni:1">Home</a></li>
+                    <li><a href="about.html" style="--navAni:2">About</a></li>
+                    <li><a href="game/game.html" style="--navAni:3">Memory Game</a></li>
+                    <li><a href="information/information.html" style="--navAni:3">Our Rights</a></li>
+                    <li><a href="faqs/faq.html" style="--navAni:4">FAQs</a></li>
+                    <li><a href="#" class="active" style="--navAni:5">Consult</a></li>
+                    <!-- <a class="button" href="#">Login</a> -->
+                </ul>
+                <a class="button" href="login.html">Login</a>
+                <label for="click" class="mainicon">
+                    <div class="menu">
+                        <i class='bx bx-menu'></i>
+                    </div>
+                </label>
+                
+            </div>
+            
+        </header>
+    </section>
+
+    <div class="container_2">
+        <div class="header_2">
+            <h1>Call For Guidence</h1>
+            <p>Legal  aid  at  your  side ,  don't  run  and  hide ,  just  give  us  a  ring ,   we'll  make  everything  right!</p>
+            <div class="section bg-static">
+                <div class="bg-move"></div>
+              </div>
+              <script>
+                $(window).on("load resize scroll", function() {
+        $(".bg-static").each(function() {
+          var windowTop = $(window).scrollTop();
+          var elementTop = $(this).offset().top;
+          var leftPosition = windowTop - elementTop;
+            $(this)
+              .find(".bg-move")
+              .css({ left: leftPosition });
+        });
+      });
+              </script>
+        </div>
+        <div class="flash">
+            <div class="flashcard consultation-container">
+                <div class="contact-us-container">
+                    
+                    <div class="form-box">
+                        <h2>Contact Us</h2>
+                        <form>
+                            <div class="form-container">
+                                <label for="name">Name:</label><br>
+                                <input type="text" id="name" name="name" required><br>
+                            </div>
+                            <div class="form-container">
+                                <label for="email">Email:</label><br>
+                                <input type="email" id="email" name="email" required><br>
+                            </div>
+                            <div class="form-container">
+                                <label for="message">Message:</label><br>
+                                <textarea id="message" name="message" required></textarea><br>
+                            </div>
+                            <div class="form-container">
+                                <input type="submit" value="Send" class="submit">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="flashcard consultation-container">
+                <div class="consultation-content">
+                    
+                    <div class="form-box">
+                        <h2>Contact NGO's</h2>
+                        <form>
+                            <div class="form-container">
+                                <label for="name_consult">Name:</label><br>
+                                <input type="text" id="name_consult" name="name_consult" required><br>
+                            </div>
+                            <div class="form-container">
+                                <label for="email_consult">Email:</label><br>
+                                <input type="email" id="email_consult" name="email_consult" required><br>
+                            </div>
+                            <div class="form-container">
+                                <label for="message_consult">Message:</label><br>
+                                <textarea id="message_consult" name="message_consult" required></textarea><br>
+                            </div>
+                            <div class="form-container">
+                                <input type="submit" value="Request" class="submit">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flashcard contact-form">
+                <div class="contact-us-container">
+                    
+                    <div class="form-box">
+                        <h2>Contact Advocate</h2>
+                        <form>
+                            <div class="form-container">
+                                <label for="name">Name:</label><br>
+                                <input type="text" id="name" name="name" class="input_box" required><br>
+                            </div>
+                            <div class="form-container">
+                                <label for="email">Email:</label><br>
+                                <input type="email" id="email" name="email" required><br>
+                            </div>
+                            <div class="form-container">
+                                <label for="message">Message:</label><br>
+                                <textarea id="message" name="message" required></textarea><br>
+                            </div>
+                            <div class="form-container">
+                                <input type="submit" value="Request" class="submit">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="flashcard consultation-container">
+                <div class="consultation-content">
+                    
+                    <div class="form-box">
+                        <h2>Contact Physiotherapist</h2>
+                        <form>
+                            <div class="form-container">
+                                <label for="name_consult">Name:</label><br>
+                                <input type="text" id="name_consult" name="name_consult" required><br>
+                            </div>
+                            <div class="form-container">
+                                <label for="email_consult">Email:</label><br>
+                                <input type="email" id="email_consult" name="email_consult" required><br>
+                            </div>
+                            <div class="form-container">
+                                <label for="message_consult">Message:</label><br>
+                                <textarea id="message_consult" name="message_consult" required></textarea><br>
+                            </div>
+                            <div class="form-container">
+                                <input type="submit" value="Request" class="submit">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <section>
+        <div class="footer">
+            <div class="left-sec">
+                    <img src="/logo 222.png" alt="">
+                    <h1></h1>
+                    <div class="logos">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-square-instagram"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+                    </div>
+                </div>
+                <div class="middle-sec-1">
+                    <p><i class="fa-solid fa-square-phone" style="color: #ffcc00 ;"></i> &nbsp;CALL US</p>
+                    <h6><a href="tel:+9123-456-7890">+91 123 456 789</a></h6><br>
+                    <p><i class="fa-solid fa-location-dot" style="color: #ff0000;"></i> &nbsp;CONTACT US</p>
+                    
+                </div>
+                <div class="second-sections">
+                    <div class="middle-sec-2">
+                        <div>
+                            <h4>QUICK LINKS</h4><br>
+                            <a href="/index.html">Home</a><hr>
+                            <a href="/about.html">About Us</a><hr>
+                            <a href="#">Consult</a><hr>
+                            <a href="/login.html">Login</a><hr>
+                        </div>
+                        <div>
+                            <h4>Terms & Privacy</h4><br>
+                            <a href="/trust.html">Trust & Safety</a><hr>
+                            <a href="terms.html">Terms of Service</a><hr>
+                            <a href="privacy-policy.html">Privacy Policy</a><hr>
+                        </div>
+                    </div>
+                    <div class="right-sec">
+                        <h4>Working Hours</h4><br>
+                        <p>Monday - Friday: 24 x 7 </p>
+                        <p>Saturday - Sunday: 9am-11pm</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-text">
+            <p>Copyright &copy; 2023, All Right Reserved &nbsp; <a href="#">Code of Duty</a></p>
+        </div>
+    </section>
+    
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Flip-the-Card</title>
+</head>
+<body>
+    <h1>Lives: <span class="playerLivesCount"></span></h1>
+    <section></section>
+    <div class="popup" id="popup">
+        <div class="app">
+            <h1>Redeem Your Lives</h1>
+            <div class="quiz">
+                <h2 id="question">Question goes here</h2>
+                <div id="answer-buttons">
+                    <button class="btn">Answer1</button>
+                    <button class="btn">Answer2</button>
+                    <button class="btn">Answer3</button>
+                    <button class="btn">Answer4</button>
+                </div>
+                <button id="next-btn">Next</button>
+            </div>
+        </div>
+        <button id="close-btn" type="button">Submit</button>
+    </div>
+    <div class="popup" id="endgame-popup">
+        <h1 id="win">Game Over</h1>
+        <button id="play-again-btn">Play Again</button>
+        <button id="go-home-btn">Go Home</button>
+    </div>
+    
+    <script>
+        function submit(lives) {
+            console.log(lives);
+            restart("Hurray!", lives);
+        }
+
+    </script>
+    <script src="index.js"></script>
+</body>
+</html>
